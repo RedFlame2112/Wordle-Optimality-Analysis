@@ -4,7 +4,6 @@ This project is an analysis of the massively popular word game Wordle, and this 
 
 Also, I shall note that as for the total decision tree sizes, not all of them are optimal. For instance, the word "trace" has been proven to have a minimal decision tree size of 7926, while this code is just minorly unoptimal with 7927 for its size. For use in data visualization programs, I have also included the results in the table below within a CSV file.
 
-
 <div class="row"><div class="col-md-12"><div class="panel panel-success"><div class="panel-heading "><h3 class="panel-title">Optimalities</h3></div>
 <table border=1 class="table table-striped table-bordered table-hover table-condensed">
 <thead><tr><th title="Field #1">word</th>
@@ -113,4 +112,15 @@ Also, I shall note that as for the total decision tree sizes, not all of them ar
 <td align="right">5</td>
 </tr>
 </tbody></table>
+</div></div></div>
+--------------
+As this code can verify, the most optimal word was "Salet", which has the following stats below:
+<div class="row"><div class="col-md-12"><div class="panel panel-success"><div class="panel-heading "><h3 class="panel-title">HTML Table Preview</h3></div>
+<table border=1 class="table table-striped table-bordered table-hover table-condensed">
+<thead><tr><th title="Field #1">salet</th>
+<th title="Field #2">total guesses: 7920</th>
+<th title="Field #3">avg guesses: 3.4211664</th>
+<th title="Field #4">max guesses: 5</th>
+</tr></thead>
+<tbody></tbody></table>
 </div></div></div>
