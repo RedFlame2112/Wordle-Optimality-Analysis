@@ -113,9 +113,9 @@ Also, I shall note that as for the total decision tree sizes, not all of them ar
 </tr>
 </tbody></table>
 </div></div></div>
---------------
+-----
 As this code can verify, the most optimal word was "Salet", which has the following stats below:
-<div class="row"><div class="col-md-12"><div class="panel panel-success"><div class="panel-heading "><h3 class="panel-title">HTML Table Preview</h3></div>
+<div class="row"><div class="col-md-12"><div class="panel panel-success"><div class="panel-heading "><h3 class="panel-title">Stats for Salet</h3></div>
 <table border=1 class="table table-striped table-bordered table-hover table-condensed">
 <thead><tr><th title="Field #1">salet</th>
 <th title="Field #2">total guesses: 7920</th>
