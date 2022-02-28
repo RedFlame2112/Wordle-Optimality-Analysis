@@ -1,4 +1,4 @@
-# Wordle-Optimality-Analysis
+# Wordle Optimality Analysis
 
 This project is an analysis of the massively popular word game Wordle, and this code mines for 20 of the most mathematically optimal starting words in wordle, and performing a kind of optimality measure on each of them. The attributes to each word is their minimum decision tree size needed to test combinations, the average number of guesses the code can solve the Wordle in starting with the starter word, and the maximum number of guesses that the code needed in order to find the word. Everything is with compeltely optimized gameplay, and because of this, the solver code needs to sometimes omit information that has been given from the previous word in order to maximize the amount of new information available within the next word. Because of this, the code is not completely aligned and fit to mimic human gameplay; for that there is some better code examples out there that also come with a "Hard Mode", where words that are highlighted either yellow or green must be reused again, mimicing normal human gameplay for this game. 
 
